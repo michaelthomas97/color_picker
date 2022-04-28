@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.nav_center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background: white;
+}
+
+.nav_center h4 {
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 2px;
+  line-height: 1px;
+  font-size: 50px;
+}
+
+.nav_center .nav_links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav_center .nav_links li {
+  list-style: none;
+  margin: 0px 30px;
+}
+
+.nav_center .nav_links li a {
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 2px;
+  line-height: 1px;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.title h4 {
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 2px;
+  line-height: 1px;
+  font-size: 40px;
+  padding: 30px;
+  border-radius: 10px;
+  color: white;
+  background-color: black;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: transparent;
+  margin: 200px 0px;
+}
+
+.container h2 {
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 2px;
+  line-height: 1px;
+  font-size: 60px;
+  background: black;
+  color: white;
+  padding: 50px 80px;
+  border-radius: 10px;
+}
+
+.container .btn {
+  background: transparent;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 2px;
+  line-height: 1px;
+  font-size: 30px;
+  padding: 30px 50px;
+  border-radius: 10px;
+  border: 3px solid black;
+}
+
+.container .btn:hover {
+  background-color: white;
+  color: black;
+}
+/*# sourceMappingURL=style.css.map */
